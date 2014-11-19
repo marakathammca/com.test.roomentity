@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/roomentity</path>
+    <page_callback>CRM_Roomentity_Form_RoomEntity</page_callback>         	<title>New Room Details Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+<item>
+    <path>civicrm/roomentityconfirmation</path>
+    <page_callback>CRM_Roomentity_Form_RoomEntityConfirm</page_callback>
+    <title>New Room Details Confirmation Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+<item>
+    <path>civicrm/roomentityview</path>
+    <page_callback>CRM_Roomentity_Form_RoomEntitysearch</page_callback>
+    <title>Room Details View Page</title>
+    <access_arguments>access CiviCRM</access_arguments>
+ </item>
+</menu>
